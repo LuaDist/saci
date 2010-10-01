@@ -1,0 +1,16 @@
+--- This file is part of LuaDist projecte
+
+name = "saci"
+version = "9.03.16"
+
+desc = "Saci is a document-oriented hierarchical storage system"
+author = "Yuri Takhteyev"
+license = "MIT/X11"
+url = "http://spu.tnik.org/en/Saci"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+  	"cosmo >= 7.12.24",
+	"versium == 9.02.15",
+}
