@@ -1,0 +1,37 @@
+type = "x86"
+arch = "Windows"
+author = "Yuri Takhteyev"
+depends = {
+[[lua ~> 5.1]],
+[[cosmo >= 7.12.24]],
+[[versium == 9.02.15]],
+}
+
+desc = "Saci is a document-oriented hierarchical storage system"
+version = "9.03.16"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib\lua\saci\node.lua]],
+[[lib\lua\saci\sandbox.lua]],
+[[lib\lua\saci\search.lua]],
+[[lib\lua\saci.lua]],
+}
+,
+Documentation = {
+[[share\saci\doc\\credits.txt]],
+[[share\saci\doc\\index.html]],
+[[share\saci\doc\\releases.rss]],
+[[share\saci\doc\\saci.png]],
+[[share\saci\doc\\saci.xcf]],
+}
+,
+Data = {
+[[share\saci\LICENSE.txt]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "saci"
+url = "http://spu.tnik.org/en/Saci"
